@@ -1,12 +1,12 @@
 .header-jumbo{
-	background-color: black;
+	
 	color: #fff;
 	margin-bottom: 25px;
 	text-align: center;
 }
 
 #background-header{
-	background-color: black;
+	background-color: green;
 }
 #container{
 	width:70%;
