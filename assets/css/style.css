@@ -16,7 +16,7 @@
 #formSumbit{
 	border-style: solid;
 	border-width: 5px;
-	border-color:blue;
+	border-color: green;
 }
 
 .table-header{
@@ -37,14 +37,21 @@
 }
 
 #submit{
-	background-color: #122f6d;
+	background-color: green;
 	border: none;
+	transition: background 1s;
+	transition: transform .5s;
+}
+
+#submit:hover {
+	background: #122f6d;
+	transform: scale(1.15) translateX(5px);
 }
 
 #addEmployeeTable, #formSubmit{
 	border-style: solid;
 	border-width: 2px;
-	border-color: #122f6d;
+	border-color: green;
 	margin-bottom: 25px;
 	border-radius: 5px;
 }
